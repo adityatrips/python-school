@@ -3,6 +3,6 @@ n = int(input("ENTER N\n=> "))
 s = 0
 
 for i in range(x, n+1):
-  s += x + ((x**i)/i)
+  s += ((x**i)/i)
   print(f"({x}^{i})/{i}")
-print(s)
+print(x+s)
